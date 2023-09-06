@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatJ</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/fonts/font-awesome.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+                <img src="assets/img/logo.png" alt="logo" style="height:50px;width:100%;">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about_section">About</a></li>
+              <li><a href="#ourMenu">Menu</a></li>
+              <li><a href="#gallery_section">Gallery</a></li>
+              <li><a href="#contact_section">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    <div class="banner" style="margin-top: 56px;">
+         <img src="assets/img/banner-img.png" alt="img" style="width:100%;height:100%"/> 
+      </div>
+     <div id="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-lg-6 col-md-12">
+                    <h2>About Us</h2>
+                      <p>At our cafe, we strive to create an inviting and comfortable atmosphere that feels like home. Our friendly staff is dedicated to making every customer feel welcome, and we take pride in offering delicious food and beverages that are made with the finest ingredients.</p>
+                      <p>Whether you're in the mood for a leisurely lunch, quick dinner meetings we've got you covered. Our menu features a variety of options to suit every taste, from classic coffee drinks to freshly baked donuts, pancakes, hearty sandwiches, and more.</p>
+                      <p>So whether you're looking to catch up with friends, grab a quick bite on the go, or simply savor a moment of peace and quiet, we invite you to come in and experience the warmth and hospitality of our cafe.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <br/>
+                        <br/>
+                        <img src="assets/img/about_img.jpg" alt="img" class="img-responsive center-block"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+<div class="menu" id="ourMenu">
+    <h2 class="text-center">Our Menu</h2>
+    <div class="book-section">
+        <div class="container">
+           
+                    <div class="right">
+                        <figure class="front" style="background-image: url('assets/img/menu7.jpeg');background-size: cover;"></figure>
+                        <figure class="back" style="background-image: url('assets/img/menu8.jpeg');background-size: cover;"></figure>
+                    </div>
+                    <div class="right">
+                        <figure class="front" style="background-image: url('assets/img/menu5.jpeg');background-size: cover;"></figure>
+                        <figure class="back" style="background-image: url('assets/img/menu6.jpeg');background-size: cover;"></figure>
+                    </div>
+                    <div class="right">
+                        <figure class="front" style="background-image: url('assets/img/menu3.jpeg');background-size: cover;"></figure>
+                        <figure class="back" style="background-image: url('assets/img/menu4.jpeg');background-size: cover;"></figure>
+                    </div>
+                    <div class="right">
+                        <figure class="front" id="cover" style="background-image: url('assets/img/menu1.jpeg');background-size: cover;"></figure>
+                        <figure class="back" style="background-image: url('assets/img/menu2.jpeg');background-size: cover;"></figure>
+                    </div>
+                </div>
+           
+        <button onclick="turnLeft()">Prev</button> <button onclick="turnRight()">Next</button>
+    </div>
+
+</div>           
+   
+            <div id="gallery_section">
+                <div class="container">
+                    <h2 class="text-center">Gallery</h2>
+                    <div class="gallery">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/pancake.webp" type="image/webp">
+                                    <source srcset="assets/img/pancake.jpg" type="image/png">
+                                    <img src="assets/img/pancake.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/pizza.webp" type="image/webp">
+                                    <source srcset="assets/img/pizza.jpg" type="image/png">
+                                    <img src="assets/img/pizza.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/pancake2.webp" type="image/webp">
+                                    <source srcset="assets/img/pancake2.jpg" type="image/png">
+                                    <img src="assets/img/pancake2.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/sandwich.webp" type="image/webp">
+                                    <source srcset="assets/img/sandwich.jpg" type="image/png">
+                                    <img src="assets/img/sandwich.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/Maggie.webp" type="image/webp">
+                                    <source srcset="assets/img/Maggie.jpg" type="image/png">
+                                    <img src="assets/img/Maggie.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/frappe.webp" type="image/webp">
+                                    <source srcset="assets/img/frappe.jpg" type="image/png">
+                                    <img src="assets/img/frappe.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/pasta.webp" type="image/webp">
+                                    <source srcset="assets/img/pasta.jpg" type="image/png">
+                                    <img src="assets/img/pasta.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/bun.webp" type="image/webp">
+                                    <source srcset="assets/img/bun.jpg" type="image/png">
+                                    <img src="assets/img/bun.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                            <div class="col-sm-4">
+                                <picture>
+                                    <source srcset="assets/img/cake.webp" type="image/webp">
+                                    <source srcset="assets/img/cake.jpg" type="image/png">
+                                    <img src="assets/img/cake.jpg" alt="image" class="img-responsive center-block">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="reviews_section" id="reviews">
+   <div class="container">
+   <h2 class="text-center">Reviews</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> 
+              <p class="text-center customer_review">With a well curated menu and ambience, this place is perfect for a quick and hearty meal at the same time. The pancakes specially are to die for. Will definitely visit again.</p>
+              <p class="text-center customer_name">- Bansuri Chouksey</p>
+            </div>
+            <div class="item">
+                 <p class="text-center customer_review">Lovely cafe with good ambience . Had a mint mojito(must try) along with sandwich, nuggets and Margherita pizza. Couldn't find fault with any of the dishes. Would definitely recommend this place.</p>    
+                 <p class="text-center customer_name">- Ashwin Suresh</p>
+            </div>
+            <div class="item"> 
+            <p class="text-center customer_review">The best pancake and hot chocolate in Vadodara. Pizza is an add on in the menu. Cozy ambience and perfect place to chill.</p>    
+            <p class="text-center customer_name">-Shivane Katoch</p>
+            </div>
+       </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+            <div id="contact_section">
+                <div class="container">
+                    <div id="contact">
+                        <div class="row">  
+                            <div class="col-sm-6">
+                                <div class="location">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.1814533468655!2d73.13697478756602!3d22.305831903778685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc88889c8e825%3A0x7674a9c7031e11d5!2sLabh%20Icon!5e0!3m2!1sen!2sin!4v1676742944242!5m2!1sen!2sin" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="contact_details">
+                                    <h2>Contact Us</h2>
+    
+                                    <div class="col-md-2 hidden-sm">
+                                      <i class="fa fa-phone" aria-hidden="true"></i>  
+                                    </div>
+                                    <div class="col-md-10 col-sm-12">
+                                      <h3>Phone: </h3>
+                                      <p class="contact_number"><a href="tel:999888777">9913854361</a><br/>
+                                      <a href="tel:999888777">9023534179</a></p>
+                                    </div>
+    
+                                   <div class="col-md-2 hidden-sm">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                   </div>
+                                    <div class="col-md-10 col-sm-12">
+                                        <h3>Email:</h3>
+                                    <p class="mail_id"><a href="mailto:cafefatj@gmail.com">cafefatj@gmail.com</a></p>
+                                    </div>
+    
+                                    <div class="col-md-2 hidden-sm"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                    
+                                    <div class="col-md-10 col-sm-12">
+                                        <h3>Address:</h3>
+                                    <p>GF 14-15, Labh icon building, <br/>
+                                     Gotri - Vasna Rd, near bansal mall, <br/>
+                                     Saiyed Vasna, Vadodara, Gujarat 390021</p>
+                                    
+                                    </div> 
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="social_section">
+                <div class="container">
+                    <div id="socials">
+                    <a href="https://instagram.com/fatjcafe?igshid=MDM4ZDc5MmU=" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/people/FAT-J-Cafe/100089985062648/?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script>
+         $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
+   <script>
+    
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:false
+            }
+        }
+    })
+   </script>
+<script>
+    var right = document.getElementsByClassName("right");
+        var si = right.length;
+        var z=1;
+        turnRight();
+        function turnRight()
+        {
+            if(si>=1){
+                si--;
+            }
+            else{
+                si=right.length-1;
+                function sttmot(i){
+                    setTimeout(function(){right[i].style.zIndex="auto";},300);
+                }
+                for(var i=0;i<right.length;i++){
+                    right[i].className="right";
+                    sttmot(i);
+                    z=1;
+                }
+            }
+            right[si].classList.add("flip");
+            z++;
+            right[si].style.zIndex=z;
+        }
+        function turnLeft()
+        {
+            if(si<right.length){
+                si++;
+            }
+            else{
+                si=1;
+                for(var i=right.length-1;i>0;i--){
+                    right[i].classList.add("flip");
+                    right[i].style.zIndex=right.length+1-i;
+                }
+            }
+            right[si-1].className="right";
+            setTimeout(function(){right[si-1].style.zIndex="auto";},350);
+        }
+    </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
