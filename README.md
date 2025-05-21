@@ -30,5 +30,3 @@ To recreate the cozy café experience digitally, we implemented a **flipbook int
 
 Built with mobile-first principles and **Bootstrap grid system** to ensure it looks great on phones, tablets, and desktops.
 
-## 🧩 Folder Structure
-
